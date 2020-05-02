@@ -107,7 +107,18 @@
             </tr>
             
             <tr>
-              <td colspan=2 ><font size="3">&nbsp;&nbsp;在大學期間我參與了許多幅學活動，</font></td>
+              <td colspan=2 align=left ><font size="3">
+                &nbsp;&nbsp;&nbsp;&nbsp;在大學期間我參與了許多服學活動，但不像這次很難得接觸到早療機構，
+                在第一次服學中，我們先了解到整個機構的時間安排及上課模式，也確實下去與各小孩互動，
+                在互動過程中，體會到對待弱勢孩童需要很有耐心及愛心，也讓我更加珍惜自己生命中所擁有的一切。<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;體驗過課堂互動後，我們也與海豚班的導師及組長討論本次專題計畫及方向，
+                由於班上有位孩童會亂衝出教室，故老師希望能做出一放置於門口或樓梯口的裝置，當孩童衝出教室時能
+                有效提醒孩童，培養孩子自主規範及危機意識，也可以提醒志工或老師有孩童溜出教室，我們這組在現場也想了一些提案，
+                並做討論，由於一開始我們想用紅外線，但老師希望可以應用於不同場合，故需保有便攜性(紅外線收發需架在門兩邊不易攜帶安裝)，
+                經過初步構想研擬，我們最終打算運用超音波模組來完成此裝置。<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;經過這樣的服學體驗，讓我發現到社會上仍有許多需要幫助的弱勢族群，
+                如果我們可以運用專業能力幫助到更多人，那豈不是既快樂又美好的事，希望專案能順利完成並有效幫助機構。
+              </font></td>
             </tr>
             
             <tr>
@@ -115,47 +126,38 @@
             </tr>
 
             <tr>
-              <td colspan=2 ><font size="3">&nbsp;&nbsp;在大學期間我參與了許多幅學活動，</font></td>
+              <td colspan=2 align=left ><font size="3">
+                &nbsp;&nbsp;&nbsp;&nbsp;第二次服學我們還是繼續參與課程互動，也與組長及導師談更進一步的構想與規劃
+                ，組長看過我們一開始初步的計畫建議我們將主要目的改變，一開始我們認為此裝置是要幫助老師管控小孩，
+                但原來機構是為了要訊連小孩自我判別及自我規範的能力，這樣的裝置具有意義本質上的不同，不是去限制小孩
+                而是教育他們，這也讓我們設計裝置上能好好省思。<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;我們在離開機構前丈量超音波預設距離即場域設定等參數，也觀察小孩衝出教室之情形
+                我們發現到有些小孩會快速爬出教室，這讓我們思考到我們裝置設計上的缺失，因此回來時有與組員做討論，
+                重新修改裝置設計。<br>
+                
+              </font></td>
             </tr>
             
             </table>
           
 
 
-          <h2 class="section-heading">專題架構</h2>
-          <p style="font-family:微軟正黑體;">整體架構如下圖(圖二)所示，我們將利用「Arduino」或「ESP8266」來做控制，控制上下超音波及聲音播放器。</p>
+          <h2 class="section-heading" align="center">專題實作心得</h2>
+          <p style="font-family:微軟正黑體;"></p>
           <p> 
-          <a href="#">
-            <img class="img-fluid"src="img/img/sample1.jpg" style="display:block; margin:auto;" alt="架構圖"> 
-          </a>
-          <p style="font-family:微軟正黑體;" align="center">圖二 專題架構圖</p>
-
-          </p>
-
-          <h2 class="section-heading">專題電路</h2>
-          <p style="font-family:微軟正黑體;">整體電路如下圖(圖三)所示。</p>
+             由於以前常用 arduino webduino 等開發版，故此次專題我提議選用arduino搭配超音波做使用
+             而撥放裝置我們用市面上最常用的 DFPlayer mini 來做音訊解碼與播放，在專題DEMO實作過程中，
+             我們發現到超音波程式不能用以往常見的寫法，而要用中斷去做時時刻刻偵測，我們也在DEMO中做了LCD 
+             的控制面板，但由於太耗電，故目前考慮使用三科LED當控制提示，目前遇到最大的問題應是每個人走過去的時間
+             不盡相同，需要不靈敏且精準測量確實有難度，我們已耗費大量時間思考改進裝置及程式碼，待與老師及機構討論，
+             方能做出改正。
           <p> 
           <a href="#">
             <img class="img-fluid"src="img/img/sample3.jpg" width="700" height="550"style="display:block; margin:auto;" alt="電路圖">
           </a>
-          <p style="font-family:微軟正黑體;" align="center">圖三 專題電路圖</p>
+          <p style="font-family:微軟正黑體;" align="center">專題電路圖</p>
 
-          <h2 class="section-heading">目前成果</h2>
-          <p style="font-family:微軟正黑體;">我們實際至機構量測進出門及上下樓梯之寬度，如下圖(圖四)至(圖七)所示。</p>
-          <p> 
-            <table border="0" cellpadding="0" cellspacing="100" style="width: 100%;">
-              <tbody><tr>
-              <td><a href="#"><img alt="" width="350" src="img/img/leo.jpg"style="display:block; margin:auto;"></a></td>
-              <td><a href="#"><img alt="" width="350" src="img/img/leo2.jpg"style="display:block; margin:auto;"></a></td>
-              </tr></tbody></table>
-          </p>
-          <p> 
-            <table border="0" cellpadding="0" cellspacing="-50" style="width: 100%;">
-              <tbody><tr>
-              <td><p style="font-family:微軟正黑體;"style="display:block; margin:auto;" align="center">圖四 目前成果圖</p></td>
-              <td><p style="font-family:微軟正黑體;"style="display:block; margin:auto;" align="center">圖五 目前成果圖</p></td>
-              </tr></tbody></table>
-          </p>
+
 
 
 
